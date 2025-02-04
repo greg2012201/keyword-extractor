@@ -1,0 +1,21 @@
+{
+    "name": "keyword-extractor",
+    "version": "1.0.0",
+    "main": "src/index.ts",
+    "scripts": {
+        "start": "ts-node index.ts",
+        "dev": "nodemon --exec ts-node src/index.ts",
+        "build": "rimraf dist && tsc",
+        "watch": "tsc -w",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Grzegorz Dubiel",
+    "license": "MIT",
+    "description": "A project for extracting keywords from text.",
+    "devDependencies": {
+        "typescript": "^5.7.3",
+        "ts-node": "^10.9.2",
+        "nodemon": "^3.1.9",
+        "@types/node": "^22.13.1"
+    }
+}
