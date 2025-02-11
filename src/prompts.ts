@@ -6,7 +6,7 @@ export const mainPrompt = `Analyze the following blog post and extract the most 
 Guidelines:
 - Extract 5 most important keywords/phrases
 - Focus on technical terms, concepts, and specific terminology
-- Include both single words and short phrases when relevant
+- Include both single words and short phrases when relevant (2-3 words)
 - Exclude common stop words unless part of a specific term
 - Add confident scores to each keyword/phrase
 Input text:
