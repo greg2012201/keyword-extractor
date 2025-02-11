@@ -1,6 +1,6 @@
 import "dotenv/config";
 import { loadTextFromFile } from "./utils";
-import getChunkedText from "./getChunkedText";
+import getChunkedText from "./get-chunked-text";
 import { mainPrompt, systemPrompt } from "./prompts";
 import { ChatOpenAI } from "@langchain/openai";
 import "dotenv";
