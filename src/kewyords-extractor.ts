@@ -3,14 +3,12 @@ import { loadTextFromFile } from "./utils";
 import getChunkedText from "./get-chunked-text";
 import { mainPrompt, systemPrompt } from "./prompts";
 import { ChatOpenAI } from "@langchain/openai";
-import "dotenv";
 import { keywordsResponseSchema } from "./schema";
 
 const model = new ChatOpenAI({
     model: "gpt-4o-mini-2024-07-18",
     temperature: 0,
     apiKey: process.env.OPENAI_API_KEY,
-    verbose: true,
 });
 
 export async function callLlm() {
