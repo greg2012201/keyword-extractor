@@ -1,4 +1,3 @@
-import "dotenv/config";
 import { loadTextFromFile } from "./utils";
 import getChunkedText from "./get-chunked-text";
 import { mainPrompt, systemPrompt } from "./prompts";

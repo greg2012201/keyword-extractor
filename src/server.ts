@@ -2,7 +2,7 @@ import { Hono } from "hono";
 import { cors } from "hono/cors";
 import { serve } from "@hono/node-server";
 import { callLlm } from "./kewyords-extractor";
-import "dotenv";
+import "dotenv/config";
 
 const app = new Hono();
 
