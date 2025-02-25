@@ -11,7 +11,7 @@ To set up the project, follow these steps:
 1. Clone the repository:
 
     ```
-    git clone <repository-url>
+    git clone https://github.com/greg2012201/keyword-extractor.git
     ```
 
 2. Navigate to the project directory:
